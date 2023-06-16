@@ -1,0 +1,35 @@
+{
+  "name": "learn-react",
+  "version": "1.0.0",
+  "description": "This is react learning",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sa-rang/learn-react.git"
+  },
+  "keywords": [
+    "react",
+    "learn"
+  ],
+  "author": "Sarang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sa-rang/learn-react/issues"
+  },
+  "homepage": "https://github.com/sa-rang/learn-react#readme",
+  "devDependencies": {
+    "parcel": "^2.9.2",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browsersList": [
+    "last 3 versions"
+  ]
+}
