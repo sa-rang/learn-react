@@ -1,14 +1,32 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
+//JSX
 
-const header1 = React.createElement("h1", {}, "Header 1");
-const header2 = React.createElement("h1", {}, "Header 2");
-const header3 = React.createElement("h1", {}, "Header 3");
-const link = React.createElement("a", { href: "https://www.bubu.com" }, "Header 3");
+//React Element
+const jsxHeading = (
+    <div>
+        <h1>Learn react 🚀</h1>
+        <h3>wallah</h3>
+    </div>
+);
 
-const container = React.createElement("div", { className: "container" }, [header1, header2, header3, link])
+//React Functional Component
+
+const HeadingComponent = () => {
+    return (
+        //Empty root tags
+        // <React.Fragment>  </React.Fragment> 
+        //<>  </>
+        <div>
+            {jsxHeading}
+            <h3>im function component</h3>
+            <p>im content if the function component</p>
+
+        </div>
+    )
+}
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(container);
+root.render(<HeadingComponent />);
